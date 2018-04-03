@@ -1,0 +1,45 @@
+*{
+	font-family:'Poiret One', cursive;
+	font-weight: bold !important;
+}
+body{
+background-image: url(images/cvbackground.jpg);
+background-size: cover;
+}
+
+h1{
+	/*font-family: Calibri Light;*/
+	text-decoration: underline;
+	font-weight: bold;
+}
+h3,h5{
+	/*font-family: Calibri Light;*/
+	text-decoration: underline;
+	font-size: 130%;
+	font-weight: bold; 
+}
+
+p{
+	/*font-family: Calibri;*/
+	font-size: 130%;
+	font-weight: bold;
+}
+
+.block {
+width: 5.5%;
+border-style: outset 0.02cm solid black;
+background-color: rgb(0, 0, 175, 0.2);
+padding: 1px 1px;
+font-size: 0.6cm;
+cursor: pointer;
+text-align: center;
+}
+
+.block:hover{
+background-color: #ddd;
+color: tomato;
+}
+
+.dropdownMenuButton{
+	background-color: .bg-primary;
+}
